@@ -21,7 +21,8 @@
 
 `get api/title`
 
-    GET 'https://localhost:3002/api/title'
+    curl --request GET \
+    --url http://localhost:3002/api/title
     
 ### Response
 [![Generic badge](https://img.shields.io/badge/200-OK-<COLOR>.svg)](https://shields.io/)
