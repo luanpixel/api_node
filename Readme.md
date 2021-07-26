@@ -10,7 +10,7 @@
 #### iniciar o apache e mysql do xamp.
 
 # Na raiz do projeto dar os seguintes comandos:
-#### 1. NPM install
+#### 1. npm install
 #### 2. knex migrate:latest
 
 # API 
@@ -45,7 +45,7 @@
 
 `POST api/title`
 
-POST 'https://localhost:3002/title'
+    POST 'https://localhost:3002/title'
 
     {
         "name": "Matrix",
