@@ -35,7 +35,7 @@ module.exports = (app) => {
             await app
                 .database("cad_filmes")
                 .insert(title)
-                .then((_) => res.status(200).send())
+                .then((_) => res.status(201).send())
                 .catch((err) => res.status(500).send(err))
         }
     }
