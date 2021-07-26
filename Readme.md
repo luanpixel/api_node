@@ -15,31 +15,6 @@
 
 # API 
 
-## Obter todos os filmes
-
-### Request
-
-`get api/title`
-
-    curl --request GET \
-    --url http://localhost:3002/api/title
-    
-### Response
-[![Generic badge](https://img.shields.io/badge/200-OK-<COLOR>.svg)](https://shields.io/)
-
-    {
-       "id": "1",
-       "name": "Matrix",
-       "genero": "Ação",
-       "description": "Filme muito bom",
-    },
-    {
-       "id": "2",
-       "name": "Mad Max",
-       "genero": "Corrida",
-       "description": "Filme incrivel"
-    }
-       
 ## Adicionar novo filme
 
 ### Request
@@ -67,6 +42,32 @@
         "description": "Filme muito bom",
     }'
      
+     
+## Obter todos os filmes
+
+### Request
+
+`get api/title`
+
+    curl --request GET \
+    --url http://localhost:3002/api/title
+    
+### Response
+[![Generic badge](https://img.shields.io/badge/200-OK-<COLOR>.svg)](https://shields.io/)
+
+    {
+       "id": "1",
+       "name": "Matrix",
+       "genero": "Ação",
+       "description": "Filme muito bom",
+    },
+    {
+       "id": "2",
+       "name": "Mad Max",
+       "genero": "Corrida",
+       "description": "Filme incrivel"
+    }
+       
 ## Obter um filme pelo ID
 
 ### Request
