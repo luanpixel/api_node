@@ -59,12 +59,6 @@
        "name": "Matrix",
        "genero": "Ação",
        "description": "Filme muito bom",
-    },
-    {
-       "id": "2",
-       "name": "Mad Max",
-       "genero": "Corrida",
-       "description": "Filme incrivel"
     }
        
 ## Obter um filme pelo ID
