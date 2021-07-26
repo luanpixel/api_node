@@ -21,7 +21,7 @@
 `POST api/title`
 
      curl --request POST \
-  	 --url http://localhost:3002/api/title \
+  	 --url http://localhost:3000/api/title \
  	 --header 'Content-Type: application/json' \
   	--data '{
 	           "name": "Matrix",
@@ -49,7 +49,7 @@
 `get api/title`
 
     curl --request GET \
-    --url http://localhost:3002/api/title
+    --url http://localhost:3000/api/title
     
 ### Response
 [![Generic badge](https://img.shields.io/badge/200-OK-<COLOR>.svg)](https://shields.io/)
@@ -74,7 +74,7 @@
 `GET /api/title/id`
 
    	curl --request GET \
-  	--url http://localhost:3002/api/title/1
+  	--url http://localhost:3000/api/title/1
 
 ### Response
 
@@ -94,7 +94,7 @@
 `PUT api/title/id`
 
     curl --request PUT \
-  	--url http://localhost:3002/api/title/1 \
+  	--url http://localhost:3000/api/title/1 \
   	--header 'Content-Type: application/json' \
   	--data '{
 	            "name": "Animatrix",
@@ -114,7 +114,7 @@
 `DELETE /api/title/id`
 
     curl --request DELETE \
-  	--url http://localhost:3002/api/title/1
+  	--url http://localhost:3000/api/title/1
 
 ### Response
 
