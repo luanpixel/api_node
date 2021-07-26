@@ -47,13 +47,13 @@
 `POST api/title`
 
     curl --request POST \
-  --url http://localhost:3002/api/title \
-  --header 'Content-Type: application/json' \
-  --data '{
+  	--url http://localhost:3002/api/title \
+ 	 --header 'Content-Type: application/json' \
+  	--data '{
 	"name": "Matrix",
 	"genero": "Ação",
 	"description": "Filme muito bom"
-}'
+	}'
       
 ### Response
 
@@ -73,8 +73,8 @@
 
 `GET /api/title/id`
 
-   curl --request GET \
-  --url http://localhost:3002/api/title/1
+   	curl --request GET \
+  	--url http://localhost:3002/api/title/1
 
 ### Response
 
@@ -94,13 +94,13 @@
 `PUT api/title/id`
 
     curl --request PUT \
-  --url http://localhost:3002/api/title/6 \
-  --header 'Content-Type: application/json' \
-  --data '{
+  	--url http://localhost:3002/api/title/6 \
+  	--header 'Content-Type: application/json' \
+  	--data '{
 	"name": "Animatrix",
 	"genero": "Animação", 
 	"description": "Animação no universo de Matrix"
-}'
+	}'
 
 ### Response
 
@@ -114,7 +114,7 @@
 `DELETE /api/title/id`
 
     curl --request DELETE \
-  --url http://localhost:3002/api/title/1
+  	--url http://localhost:3002/api/title/1
 
 ### Response
 
@@ -122,4 +122,4 @@
 
 ### Author
 
-Luan da SIlva Gomes
+Luan da Silva Gomes
