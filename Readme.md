@@ -46,13 +46,14 @@
 
 `POST api/title`
 
-    POST 'https://localhost:3002/api/title'
-
-    {
-        "name": "Matrix",
-        "genero": "Ação",
-        "description": "Filme muito bom",
-    }
+    curl --request POST \
+  --url http://localhost:3002/api/title \
+  --header 'Content-Type: application/json' \
+  --data '{
+	"name": "Matrix",
+	"genero": "Ação",
+	"description": "Filme muito bom"
+}'
       
 ### Response
 
@@ -72,7 +73,8 @@
 
 `GET /api/title/id`
 
-    GET 'https://localhost:3002/api/tile/01'
+   curl --request GET \
+  --url http://localhost:3002/api/title/1
 
 ### Response
 
@@ -91,13 +93,14 @@
 
 `PUT api/title/id`
 
-    PUT 'https://localhost:3002/api/title/01'
-
-    {
-        "name": "Animatrix",
-        "genero": "animação",
-        "description": "Animação no universo de matrix",
-    }
+    curl --request PUT \
+  --url http://localhost:3002/api/title/6 \
+  --header 'Content-Type: application/json' \
+  --data '{
+	"name": "Animatrix",
+	"genero": "Animação", 
+	"description": "Animação no universo de Matrix"
+}'
 
 ### Response
 
@@ -110,7 +113,8 @@
 
 `DELETE /api/title/id`
 
-    DELETE 'https://localhost:3002/api/title/1'
+    curl --request DELETE \
+  --url http://localhost:3002/api/title/1
 
 ### Response
 
