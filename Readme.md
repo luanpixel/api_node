@@ -3,13 +3,12 @@
 
 ## REQUISITOS
 ##### Node.js
-##### Xamp
+##### Conexão com o banco MySQL
 
 
 # Primeiro passo:
-#### iniciar o apache e mysql do xamp.
 
-# Na raiz do projeto dar os seguintes comandos:
+## Na raiz do projeto dar os seguintes comandos:
 #### 1. npm install
 #### 2. knex migrate:latest
 
