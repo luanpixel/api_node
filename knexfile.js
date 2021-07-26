@@ -1,10 +1,11 @@
+require('dotenv').config()
 module.exports = {
     client: "mysql2",
     connection: {
-        host: "127.0.0.1",
+        host: process.env.DB_HOST,
         database: "apinode",
-        user: "root",
-        password: ""
+        user: process.env.DB_USER,
+        password: process.env.DB_PASS
     },
     poll: {
         min: 2,
