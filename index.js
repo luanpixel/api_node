@@ -12,4 +12,4 @@ consign()
     .into(app)
 
 
-app.listen(3002, () => console.log("Server in port 3002"));
+app.listen(3000, () => console.log("Server in port 3000"));
