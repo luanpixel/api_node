@@ -46,14 +46,14 @@
 
 `POST api/title`
 
-    curl --request POST \
-  	--url http://localhost:3002/api/title \
+     curl --request POST \
+  	 --url http://localhost:3002/api/title \
  	 --header 'Content-Type: application/json' \
   	--data '{
-	"name": "Matrix",
-	"genero": "Ação",
-	"description": "Filme muito bom"
-	}'
+	           "name": "Matrix",
+	           "genero": "Ação",
+	           "description": "Filme muito bom"
+	           }'
       
 ### Response
 
@@ -97,10 +97,10 @@
   	--url http://localhost:3002/api/title/6 \
   	--header 'Content-Type: application/json' \
   	--data '{
-	"name": "Animatrix",
-	"genero": "Animação", 
-	"description": "Animação no universo de Matrix"
-	}'
+	            "name": "Animatrix",
+	            "genero": "Animação", 
+	            "description": "Animação no universo de Matrix"
+	           }'
 
 ### Response
 
