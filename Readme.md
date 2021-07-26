@@ -7,10 +7,13 @@
 
 
 # Primeiro passo:
+### instalar o knex globalmente
+### criar um banco na database chamado "apinode"
 
 ## Na raiz do projeto dar os seguintes comandos:
 #### 1. npm install
 #### 2. knex migrate:latest
+#### 3. npm run start
 
 # API 
 
@@ -59,12 +62,6 @@
        "name": "Matrix",
        "genero": "Ação",
        "description": "Filme muito bom",
-    },
-    {
-       "id": "2",
-       "name": "Mad Max",
-       "genero": "Corrida",
-       "description": "Filme incrivel"
     }
        
 ## Obter um filme pelo ID
