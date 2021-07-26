@@ -21,7 +21,7 @@
 
 `get api/title`
 
-    localhost:3002/title
+    GET 'https://localhost:3002/api/title'
     
 ### Response
 [![Generic badge](https://img.shields.io/badge/200-OK-<COLOR>.svg)](https://shields.io/)
@@ -45,7 +45,7 @@
 
 `POST api/title`
 
-    POST 'https://localhost:3002/title'
+    POST 'https://localhost:3002/api/title'
 
     {
         "name": "Matrix",
@@ -71,7 +71,7 @@
 
 `GET /api/title/id`
 
-GET 'https://localhost:3002/tile/01'
+    GET 'https://localhost:3002/api/tile/01'
 
 ### Response
 
@@ -90,7 +90,7 @@ GET 'https://localhost:3002/tile/01'
 
 `PUT api/title/id`
 
-PUT 'https://localhost:3002/title/01'
+    PUT 'https://localhost:3002/api/title/01'
 
     {
         "name": "Animatrix",
@@ -109,7 +109,7 @@ PUT 'https://localhost:3002/title/01'
 
 `DELETE /api/title/id`
 
-DELETE 'https://localhost:3002/title/1'
+    DELETE 'https://localhost:3002/api/title/1'
 
 ### Response
 
