@@ -96,7 +96,7 @@ module.exports = (app) => {
 
         await app.database("cad_filmes").where({ id: idTitle }).del();
 
-        return res.status(410).send();
+        return res.status(200).send();
     }
 
     return { get, save, getById, erase }
