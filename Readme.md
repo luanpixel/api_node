@@ -95,7 +95,7 @@
 `PUT api/title/id`
 
     curl --request PUT \
-  	--url http://localhost:3002/api/title/6 \
+  	--url http://localhost:3002/api/title/1 \
   	--header 'Content-Type: application/json' \
   	--data '{
 	            "name": "Animatrix",
