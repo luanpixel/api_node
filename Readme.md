@@ -115,7 +115,7 @@
 
 ### Response
 
-   [![Generic badge](https://img.shields.io/badge/410-DONE-<COLOR>.svg)](https://shields.io/)
+   [![Generic badge](https://img.shields.io/badge/200-OK-<COLOR>.svg)](https://shields.io/)
 
 ### Author
 
