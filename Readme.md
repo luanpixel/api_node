@@ -1,19 +1,36 @@
 # API de catalogo
 ##### Catalogo para filmes
 
-## REQUISITOS
-##### Node.js
-##### Conexão com o banco MySQL
+## Como Executar
 
+### 0 - Requisitos
+Antes de executar a aplicação, tenha certeza de ter os seguintes requisitos :
 
-# Primeiro passo:
-### instalar o knex globalmente
-### criar um banco na database chamado "apinode"
+- NodeJs 
+- Banco de dados PostgreSQL
 
-## Na raiz do projeto dar os seguintes comandos:
-#### 1. npm install
-#### 2. knex migrate:latest
-#### 3. npm run start
+### 1 - Configurando variáveis de ambiente
+As variáveis abaixo são **Necessárias** para o projeto funcionar.
+```
+   // DATABASE_URL
+   DATABASE_URL = "postgres://uhnqfpkuokedqu:9dbbc2bca263669fd71f0e36a40abfa08ca5b5bec8d64e8713449078a5d942b9@ec2-54-236-137-173.compute-1.amazonaws.com:5432/dfkd46kuha9m0m" //Exemplo
+   
+```
+
+### 2 - Iniciando a aplicação
+
+  No seu diretório do projeto, instale todas as dependências com o comando :
+  ```
+  npm install
+  ```
+  No seu diretório do projeto, rode a migration com o comando : 
+  ```
+  knex migrate:latest
+  ```
+  Então, execute o seguinte comando para inicializar a aplicação :
+  ```
+  npm start
+  ```
 
 # API 
 
