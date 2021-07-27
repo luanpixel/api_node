@@ -23,6 +23,10 @@ As variáveis abaixo são **Necessárias** para o projeto funcionar.
   ```
   npm install
   ```
+  No seu diretório do projeto, instale globalmente o knex :
+  ```
+  npm install -g knex
+  ```
   No seu diretório do projeto, rode a migration com o comando : 
   ```
   knex migrate:latest
@@ -31,6 +35,7 @@ As variáveis abaixo são **Necessárias** para o projeto funcionar.
   ```
   npm start
   ```
+  
 
 # API 
 
